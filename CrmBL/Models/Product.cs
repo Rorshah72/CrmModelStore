@@ -19,7 +19,7 @@ namespace CrmBL.Models
         /// <summary>
         /// Ціна продукту.
         /// </summary>
-        public double Price { get; set; }
+        public decimal Price { get; set; }
 
         /// <summary>
         /// Кількість продукту.
@@ -40,7 +40,7 @@ namespace CrmBL.Models
         /// <param name="name">Назва продукту.</param>
         /// <param name="price">Ціна на продукт.</param>
         /// <param name="count">Кількість продукту.</param>
-        public Product(string name, double price = 0, int count = 0)
+        public Product(string name, decimal price = 0, int count = 0)
         {
             Name = name;
             Price = price;

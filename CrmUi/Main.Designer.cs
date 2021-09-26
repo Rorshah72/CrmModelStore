@@ -101,12 +101,14 @@
             this.AddProductToolStripMenuItem.Name = "AddProductToolStripMenuItem";
             this.AddProductToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.AddProductToolStripMenuItem.Text = "Добавити";
+            this.AddProductToolStripMenuItem.Click += new System.EventHandler(this.AddProductToolStripMenuItem_Click);
             // 
             // AddSellerToolStripMenuItem1
             // 
             this.AddSellerToolStripMenuItem1.Name = "AddSellerToolStripMenuItem1";
             this.AddSellerToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.AddSellerToolStripMenuItem1.Text = "Добавити";
+            this.AddSellerToolStripMenuItem1.Click += new System.EventHandler(this.AddSellerToolStripMenuItem1_Click);
             // 
             // AddCustomerToolStripMenuItem2
             // 
